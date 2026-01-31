@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "YAYYYYYYYYYYYYYYYYYYYYY🥰🚀💝",  // Shows when they go past 5000%
-        high: "YAYYY! 🚀💝",              // Shows when they go past 1000%
-        normal: "Yay! 🥰"                           // Shows when they go past 100%
+        extreme: "YAYYYYY< MUACKS 🥰🚀💝",  // Shows when they go past 5000%
+        high: "YIPIEEEEEEEEEEEEEEEEEE! 🚀💝",              // Shows when they go past 1000%
+        normal: "Yippie! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! I love u most baby!",
-        message: "LETS GO OUT ON VALENTINES DAY!!",
+        title: "I'm the luckiest person in the world! 🎉💝💖💝💓",
+        message: "LETS GO ON VALENTINES!! I LOVE U MOST",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -73,10 +73,10 @@ const CONFIG = {
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
-    Background Music (Optional)
-    Add your own music URL after getting proper licenses
+    // Background Music (Optional)
+    // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
+        enabled: false,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
